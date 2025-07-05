@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #inputadicionar,
+  #botaoitem {
+    max-width: 100%;
+    width: 100%;
+  }
+}

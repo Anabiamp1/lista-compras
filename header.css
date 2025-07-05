@@ -1,0 +1,24 @@
+header{
+    margin-bottom: 50px;
+}
+
+#logotipo {
+    font-size: 26px;
+    font-weight: bolder;
+    color: var(--content-secondary);
+}
+
+
+span#logoinicio {
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 600px;
+    margin-left: 600px;
+    justify-content: center;
+      }
+
+img {
+    padding-right: 7px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Lista de Compras</title>
+   
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span id="logoinicio">
+        <img src="Vector.png" alt="logo">
+        <p id="logotipo">quicklist</p>
+        </span>
+        
+        
+    </header>
+
+
+    <div class="container">
+
+    <main>
+       <span><a href="#" id="voltar">← Voltar</a></span>
+        <h1 id="semana">Compras da semana</h1>
+        <form id="form-lista">
+        <input type="text" placeholder="Adicione um novo item" required id="inputadicionar" autocomplete="off"> <button type="submit" id="botaoitem">Adicionar Item</button>
+        </form>
+    </main>
+
+    <body>
+
+
+<ul id="listacompras">
+  <li class="itemlista">
+    <label class="checkbox-custom">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      Pão de forma
+    </label>
+    <img src="delete-02-stroke-rounded.svg" alt="" class="icone-lixeira">
+  </li>
+
+
+  <li class="itemlista">
+    <label class="checkbox-custom">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      Café preto
+    </label>
+    <img src="delete-02-stroke-rounded.svg" alt="" class="icone-lixeira">
+  </li>
+
+
+  <li class="itemlista">
+    <label class="checkbox-custom">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      Suco de laranja
+    </label>
+    <img src="delete-02-stroke-rounded.svg" alt="" class="icone-lixeira">
+  </li>
+
+
+  <li class="itemlista">
+    <label class="checkbox-custom">
+      <input type="checkbox">
+      <span class="checkmark"></span>
+      Bolacha
+    </label>
+    <img src="delete-02-stroke-rounded.svg" alt="" class="icone-lixeira">
+  </li>
+</ul>
+    </div>
+    </body>
+
+    <footer>
+    <div id="mensagem-remocao">O item foi removido da lista </div>
+    <script src="script.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        line-height: 150%;
+        --background-primary: #F4F5FB;
+        --background-secundary: #FFFFFF;
+        --color-brand: #CA3884;
+        --color-brand-hover: #A52C6B;
+        --color-danger: #C93847;
+        --content-primary: #080B12;
+        --content-secondary: #374151;
+        --content-tertiary: #9CA3AF;
+        --border-primary: #D1D5DB;
+        --border-hover: white;
+
+      }
+body{
+  background-color: var(--background-primary);
+}
+  

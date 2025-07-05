@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+#semana {
+    padding-bottom: 50px;
+    font-size: 26px;
+    color: var(--content-primary);
+}
+
+
+#voltar {
+    display: inline-block; /* permite aplicar margens sem ampliar área clicável */
+    font-size: 16px;
+    color: var(--color-brand);
+    text-decoration: none;
+    margin-bottom: 20px; /* trocado por margin */
+    padding: 0; /* remove qualquer padding que aumente a área de clique */
+}
+
+#voltar:hover {
+    font-weight: bold;
+    transition: font-weight 0.2s ease;
+}
+
+#voltar::before {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#inputadicionar {
+    border-radius: 12px;
+    text-align: left;
+    gap: 8px;
+    padding: 12px;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: 2px solid var(--border-primary);
+    font-size: 16px;
+    color: var(--content-tertiary);
+
+}
+
+#inputadicionar:focus {
+    outline: none; 
+    border: 2px solid var(--color-brand); 
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0); 
+    color: black;
+}
+
+#botaoitem {
+    background-color: var(--color-brand);
+    border-style: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    max-width: 150px;
+    margin-top: 12px;
+}
+
+.itemlista {
+  display: flex;
+  justify-content: space-between; /* separa o texto da lixeira */
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee; /* opcional, só pra separar visualmente */
+}
+
+.icone-lixeira {
+    display: inline;
+    text-align: right;
+    cursor: pointer;
+    position: relative;
+
+}
