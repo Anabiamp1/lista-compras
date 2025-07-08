@@ -5,6 +5,7 @@ Lista de Compras
 🛍️ Lista de Compras interativo.
 
 <div align="center">
+  
 ![Image](https://github.com/user-attachments/assets/a45a1cb2-a243-46bf-b3fe-3833ba8375e0)
 
 
@@ -15,7 +16,7 @@ Lista de Compras
   <a href="#page_with_curl-about">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#page_with_curl-about">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
-
+</div>
 </p>
 
 </br>
