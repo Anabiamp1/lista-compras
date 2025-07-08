@@ -25,6 +25,13 @@ Lista de Compras
 
 Esse repositório consta como um exemplo de uma lista de compras interativa para o usuário; capaz de adicionar e remover itens.
 
+## :hammer: Tecnologias
+
+Esse projeto foi desenvolvido utilizando-se as tecnologias:
+
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content)
+- [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 📥 Instalação
 
@@ -50,4 +57,4 @@ Certifique-se de ter o VS Code Studio instalado em sua máquina.
 
 Made with ❤️ by AnaBiamp1 👋🏻 [Clique aqui ](https://github.com/Anabiamp1)
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
